@@ -1,0 +1,52 @@
+{
+  "site": {
+    "title": "新北高中圖書館 小工具",
+    "subtitle": "圖書館服務與館務工具，一頁找齊"
+  },
+  "sections": [
+    {
+      "name": "讀者服務",
+      "tools": [
+        {
+          "name": "好書推薦",
+          "desc": "教職員與同學推薦圖書館採購的書籍，14 天內以 Email 回覆審核結果。",
+          "url": "https://forms.gle/npFj6YLMbBKUZwas6",
+          "icon": "book",
+          "tags": ["Google 表單"]
+        },
+        {
+          "name": "裝置連網申請",
+          "desc": "裝置連網登記表單。",
+          "url": "https://forms.gle/BAYEoWewAKr6GC58A",
+          "icon": "wifi",
+          "tags": ["Google 表單", "需校內帳號"]
+        }
+      ]
+    },
+    {
+      "name": "館務工具",
+      "tools": [
+        {
+          "name": "簽到表產生器",
+          "desc": "產生研習／活動簽到表，可下載 Word 或 PDF；登入學校帳號可直接勾選全校教職員。",
+          "url": "https://chillimeow716.github.io/signin-generator/",
+          "icon": "clipboard",
+          "tags": ["網頁工具", "校內名單需登入"]
+        }
+      ]
+    },
+    {
+      "name": "裝置管理",
+      "tools": [
+        {
+          "name": "館內裝置清單",
+          "desc": "電腦、平板、投影機等館內設備的登記與狀態追蹤。",
+          "url": "",
+          "icon": "device",
+          "tags": ["規劃中"],
+          "soon": true
+        }
+      ]
+    }
+  ]
+}
